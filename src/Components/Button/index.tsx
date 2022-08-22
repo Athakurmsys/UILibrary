@@ -1,3 +1,7 @@
+/**
+ * @Param Button Component
+ */
+
 import React, { FC, ReactNode } from 'react';
 
 type Props = {
