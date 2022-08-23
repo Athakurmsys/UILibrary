@@ -1,0 +1,8 @@
+.button {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  background-color: blue;
+}
