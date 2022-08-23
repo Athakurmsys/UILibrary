@@ -7,13 +7,13 @@ import './Button.css'
 
 type Props = {
   children?: ReactNode
-  onChange?: (event: React.MouseEvent<HTMLButtonElement>) => void
+  onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void
   className?: string
 }
 
-const Button: FC<Props> = ({ children, onChange, className }) => {
+const Button: FC<Props> = ({ children, onClick, className }) => {
   return (
-    <button className={className ? className : 'button'} onClick={onChange}>
+    <button className={className ? className : 'button'} onClick={onClick}>
       {children}
     </button>
   )
