@@ -86,6 +86,26 @@ In the user signup form, type in the fields:
 
 `npm publish --access public`
 
+## Example
+
+<!-- Once build is publish to npm -->
+
+<!-- Step 1. Install npm package in your project -->
+
+`npm i @athakur0211/uilibrary`
+
+<!-- Once install its ready for use -->
+```
+import React from 'react'
+import {Typography} from '@athakur0211/uilibrary';
+
+const App =()=>{
+    return <Typography varient="h3"> Hello React </Typography>
+}
+export default App
+````
+
+
 
 
 
